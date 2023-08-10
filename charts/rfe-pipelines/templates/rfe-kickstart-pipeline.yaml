@@ -8,7 +8,6 @@ metadata:
     {{- toYaml .Values.commonCR.annotations | nindent 4 }}    
   name: rfe-kickstart-pipeline
 spec:
-  serviceAccountName: pipeline
   params:
     - name: kickstarts-git-url
       description: Kickstarts Repository URL

@@ -8,7 +8,6 @@ metadata:
     {{- toYaml .Values.commonCR.annotations | nindent 4 }}
   name: rfe-oci-publish-content-pipeline
 spec:
-  serviceAccountName: pipeline
   params:
     - name: tooling-git-url
       description: Tooling Repository URL
