@@ -26,11 +26,11 @@ quayRegistryCR:
   targetNamespace: quay
 
 setupJob:
-  gitRepository: https://github.com/redhat-cop/rhel-edge-automation-arch.git
-  gitBranch: main
+  gitRepository: https://github.com/sallyom/rhel-edge-automation-arch.git
+  gitBranch: rhcop-main
   annotations:
     argocd.argoproj.io/hook: PostSync
     argocd.argoproj.io/hook-delete-policy: HookSucceeded
   namespace: rfe
 
-serviceAccount: rfe-automation
+serviceAccount: pipeline

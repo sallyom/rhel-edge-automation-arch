@@ -32,8 +32,8 @@ rhsm:
 # Dynamically Generated Charts
 application-manager:
   common:
-    repoURL: https://github.com/redhat-cop/rhel-edge-automation-arch.git
-    targetRevision: main
+    repoURL: https://github.com/sallyom/rhel-edge-automation-arch.git
+    targetRevision: rhcop-main
     namespace: rfe-gitops
     project: rfe
     destinationNamespace: rfe
@@ -47,8 +47,8 @@ application-manager:
       path: charts/application-manager
       values:
         common:
-          repoURL: https://github.com/redhat-cop/rhel-edge-automation-arch.git
-          targetRevision: main
+          repoURL: https://github.com/sallyom/rhel-edge-automation-arch.git
+          targetRevision: rhcop-main
           namespace: rfe-gitops
           project: rfe
           destinationNamespace: rfe
@@ -64,8 +64,8 @@ application-manager:
             destinationNamespace: rfe-gitops
             values:
               common:
-                repoURL: https://github.com/redhat-cop/rhel-edge-automation-arch.git
-                targetRevision: main
+                repoURL: https://github.com/sallyom/rhel-edge-automation-arch.git
+                targetRevision: rhcop-main
                 namespace: rfe-gitops
                 project: rfe
                 destinationNamespace: rfe-gitops
@@ -115,8 +115,8 @@ application-manager:
                   path: charts/application-manager
                   values:
                     common:
-                      repoURL: https://github.com/redhat-cop/rhel-edge-automation-arch.git
-                      targetRevision: main
+                      repoURL: https://github.com/sallyom/rhel-edge-automation-arch.git
+                      targetRevision: rhcop-main
                       namespace: rfe-gitops
                       project: rfe
                       destinationNamespace: openshift-operators
@@ -278,8 +278,8 @@ application-manager:
               argocd.argoproj.io/sync-wave: "1"
             values:
               common:
-                repoURL: https://github.com/redhat-cop/rhel-edge-automation-arch.git
-                targetRevision: main
+                repoURL: https://github.com/sallyom/rhel-edge-automation-arch.git
+                targetRevision: rhcop-main
                 namespace: rfe-gitops
                 project: rfe
                 destinationNamespace: rfe

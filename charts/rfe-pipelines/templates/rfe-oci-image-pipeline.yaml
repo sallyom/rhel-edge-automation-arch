@@ -8,6 +8,7 @@ metadata:
     {{- toYaml .Values.commonCR.annotations | nindent 4 }}
   name: rfe-oci-image-pipeline
 spec:
+  serviceAccountName: pipeline
   params:
     - name: blueprint-dir
       description: Directory in Blueprints repository containing blueprint

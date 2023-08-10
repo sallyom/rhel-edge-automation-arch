@@ -33,5 +33,5 @@ imageBuilderVM:
   replicas: 1
   volumeMode: Filesystem
 
-gitRepository: https://github.com/redhat-cop/rhel-edge-automation-arch.git
-gitBranch: main
+gitRepository: https://github.com/sallyom/rhel-edge-automation-arch.git
+gitBranch: rhcop-main
