@@ -29,7 +29,7 @@ imageBuilderVM:
     type: pc-q35-rhel8.4.0
   cores: 2
   memory: 6Gi
-  disk: 150Gi
+  disk: 80Gi
   replicas: 1
   volumeMode: Filesystem
 

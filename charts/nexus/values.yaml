@@ -19,7 +19,7 @@ nexus:
     kind: Route
   persistent:
     enabled: true
-    volumeSize: 100Gi
+    volumeSize: 50Gi
   image:
     registry: registry.connect.redhat.com
     repository: sonatype/nexus-repository-manager

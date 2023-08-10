@@ -13,5 +13,5 @@ spec:
     numVolumes: 1
     resources:
       requests:
-        storage: 50Gi
+        storage: 30Gi
   type: pv-pool
